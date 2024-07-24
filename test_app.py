@@ -3,9 +3,11 @@ from app import add, subtract
 
 def test_add():
     """def"""
+    print("test")
     assert add(1, 2) == 3
     assert add(-1, 1) == 0
     assert add(-1, -1) == -2
+    print(add(1, 2))
 
 def test_subtract():
     """deffff"""
@@ -15,3 +17,4 @@ def test_subtract():
 
 if __name__ == "__main__":
     test_add()
+    
