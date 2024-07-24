@@ -24,4 +24,4 @@ jobs:
       env:
         PYTHONPATH: . 
       run: |
-        pylint test_app.py
+        pylint test/test_app.py
