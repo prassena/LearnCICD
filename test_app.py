@@ -14,6 +14,3 @@ def test_subtract():
     assert subtract(2, 1) == 1
     assert subtract(2, 2) == 0
     assert subtract(-1, -1) == 0
-
-if __name__ == "__main__":
-    test_add()
