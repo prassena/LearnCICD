@@ -31,6 +31,10 @@ jobs:
         pip install pylint
         pylint app.py
 
+    - name: Package application
+      run: |
+        python setup.py sdist bdist_wheel
+        
     - name: Save build artifacts
       uses: actions/upload-artifact@v2
       with:
