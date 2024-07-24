@@ -1,12 +1,9 @@
-"""sample flask api"""
-from flask import Flask
+def add(a, b):
+    return a + b
 
-app = Flask(__name__)
+def subtract(a, b):
+    return a - b
 
-@app.route('/')
-def hello_world():
-    """hello word by prassena"""
-    return 'Hello, World!'
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+if __name__ == "__main__":
+    print("Addition:", add(1, 2))
+    print("Subtraction:", subtract(2, 1))
