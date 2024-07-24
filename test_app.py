@@ -17,4 +17,3 @@ def test_subtract():
 
 if __name__ == "__main__":
     test_add()
-    
