@@ -34,7 +34,10 @@ jobs:
     - name: Package application
       run: |
         python setup.py sdist bdist_wheel
-        
+
+    - name: List files in dist directory
+      run: ls -la dist/
+
     - name: Save build artifacts
       uses: actions/upload-artifact@v2
       with:
