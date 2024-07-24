@@ -1,7 +1,10 @@
+"""add and sub"""
 def add(a, b):
+    """add function"""
     return a + b
 
 def subtract(a, b):
+    """sub function"""
     return a - b
 
 if __name__ == "__main__":
